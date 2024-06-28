@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="./style.css">
+  <script src="./script.js" defer></script>
+  <title>Karina's Burger</title>
+</head>
+
+<body>
+  <h1>The Best burger in the world</h1>
+  <br>
+  <div id="price-title" class="total-price">Total price <span id="price-value" class="total-value">10</span>$</div>
+
+  <div class="ingridient-container">
+    <div class="ingridient-button">
+      <button id="add-meat" onclick="meatToAdd()">Add meat</button> 
+      <button id="remove-meat" onclick="meatToRemove()">Remove meat</button>
+      <button id="add-egg" onclick="eggToAdd()">Add egg</button>
+      <button id="remove-egg" onclick="eggToRemove()">Remove egg</button>
+      <button id="add-ketchup"onclick="ketchupToAdd()">Ketchup to add</button>
+      <button id="remove-ketchup" onclick="ketchupToRemove()">Remove ketchup</button>
+      <button id="add-lettuce"onclick="lettuceToAdd()">Lettuce to add</button>
+      <button id="remove-lettuce" onclick="lettuceToRemove()">Remove lettuce</button>
+      <button id="add-mayonnaise"onclick="mayonnaiseToAdd()">Mayonnaise to add</button>
+      <button id="remove-mayonnaise" onclick="mayonnaiseToRemove()">Remove mayonnaise</button>
+      <button id="add-onion"onclick="onionToAdd()">Onion to add</button>
+      <button id="remove-onion" onclick="onionToRemove()">Remove onion</button>
+      <button id="add-tomato"onclick="tomatoToAdd()">Tomato to add</button>
+      <button id="remove-tomato" onclick="tomatoToRemove()">Remove tomato</button>
+    </div>
+
+    <div class="ingridient-image">
+      <img id="top" src="./top.png" alt="Top burger">
+      <img id="bottom" src="./button.png" alt="Bottom burger">
+      <div>
+
+      </div>
+    </div>
+
+    <marquee behavior="scroll" direction="left">
+      Hot! Tasty! Best price!
+    </marquee>
+
+</body>
+
+</html>

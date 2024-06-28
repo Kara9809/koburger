@@ -1,0 +1,48 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+h1 {
+    text-align: center;
+    color: blueviolet;
+}
+
+.total-price {
+    text-align: center;
+    color: #0ba3b4;
+}
+
+.ingridient-image, .ingridient-button {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    flex-direction: column;
+    align-items: flex-start;
+    flex-wrap: wrap;
+    margin: 40px;
+}
+
+.ingridient-container {
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    flex-wrap: wrap;
+    padding: 10px 20px;
+    font-size: 18px;
+    background-color: rgba(139, 208, 10, 0.829);
+    color: #cd1717;
+    border: none;
+    cursor: pointer;
+    margin: 10px;
+    border-radius: 5px;
+  }
+
+  button {
+    margin-bottom: 10px;
+    padding: 10px;
+    background-color: transparent;
+    border: 2px solid black;
+  }
