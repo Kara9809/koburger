@@ -17,7 +17,7 @@ function changePrice(num) {
 
 function meatToAdd(){
     let meatImage = document.createElement("img");
-    meatImage.src = "./meat.png";
+    meatImage.src = "./images/meat.png";
     meatImage.alt = "meat"
     meatImage.classList = "meat-image";
     topImage.after(meatImage);
@@ -35,7 +35,7 @@ function meatToRemove(){
 
 function eggToAdd(){
     let eggImage = document.createElement("img");
-    eggImage.src = "./egg.png";
+    eggImage.src = "./images/egg.png";
     eggImage.alt = "egg"
     eggImage.classList = "egg-image";
     topImage.after(eggImage);
@@ -53,7 +53,7 @@ function eggToRemove(){
 
 function ketchupToAdd(){
     let ketchupImage = document.createElement("img");
-    ketchupImage.src = "./ketchup.png";
+    ketchupImage.src = "./images/ketchup.png";
     ketchupImage.alt = "ketchup"
     ketchupImage.classList = "ketchup-image";
     topImage.after(ketchupImage);
@@ -71,7 +71,7 @@ function ketchupToRemove(){
 
 function lettuceToAdd(){
     let lettuceImage = document.createElement("img");
-    lettuceImage.src = "./lettuce.png";
+    lettuceImage.src = "./images/lettuce.png";
     lettuceImage.alt = "lettuce"
     lettuceImage.classList = "lettuce-image";
     topImage.after(lettuceImage);
@@ -89,7 +89,7 @@ function lettuceToRemove(){
 
 function mayonnaiseToAdd(){
     let mayonnaiseImage = document.createElement("img");
-    mayonnaiseImage.src = "./mayonnaise.png";
+    mayonnaiseImage.src = "./images/mayonnaise.png";
     mayonnaiseImage.alt = "mayonnaise"
     mayonnaiseImage.classList = "mayonnaise-image";
     topImage.after(mayonnaiseImage);
@@ -107,7 +107,7 @@ function mayonnaiseToRemove(){
 
 function onionToAdd(){
     let onionImage = document.createElement("img");
-    onionImage.src = "./onion.png";
+    onionImage.src = "./images/onion.png";
     onionImage.alt = "onion"
     onionImage.classList = "onion-image";
     topImage.after(onionImage);
@@ -125,7 +125,7 @@ function onionToRemove(){
 
 function tomatoToAdd(){
     let tomatoImage = document.createElement("img");
-    tomatoImage.src = "./tomato.png";
+    tomatoImage.src = "./images/tomato.png";
     tomatoImage.alt = "tomato"
     tomatoImage.classList = "tomato-image";
     topImage.after(tomatoImage);
